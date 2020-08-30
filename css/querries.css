@@ -1,0 +1,143 @@
+
+
+
+@media only screen and (max-width: 1920px) {
+    
+    
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .skill-row {
+        margin-top: 15%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .letsMargin2 {
+        padding-top:60px;
+        padding-left:10%;  
+    }
+
+    .hidden {
+        visibility: visible;
+        position: relative;
+        width:320px;
+        height:320px;
+        
+    }
+    
+    .begone {
+        visibility: hidden;
+        position: absolute;
+        width:20px;
+        height:20px;
+        
+    }
+
+    
+}
+
+@media only screen and (max-width: 826px) {
+    
+    .someFloat1 {
+        float: none;
+        margin-right: 5%;  
+    }
+
+    .someFloat2 {
+        float: none;
+        margin-right: 5%;  
+    }
+    
+    .profileSize {
+        width:150px;
+        height:150px;
+    }
+    
+    h3 {
+        margin-top: 5%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .letsMargin2 {
+        
+        padding-left:9%;
+        
+    }
+  
+    .deviceGif {
+        width:320px;
+        height:320px;
+    }
+    
+    h3 {
+        margin-top: 5%;
+        font-size:30px;
+    }
+
+    .skill-row {
+        width:80%;
+    }
+
+    .profileSize {
+        width:100px;
+        height:100px;
+    }   
+
+
+    .iconEdits {
+        width:60px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+}
+    
+
+@media only screen and (max-width: 376px) {
+    
+    .someFloat1 {
+        float: none;
+        margin-right: 5%;
+        
+    }
+    
+    .someFloat2 {
+        float: none;
+        margin-left: 5%;
+    }
+
+    .skill-row {
+        margin-top: 20%;
+    }
+
+    .someExtraSkillP {
+        margin-bottom: 20%;
+    }
+    
+    .someExtraSkillH {
+        margin-bottom: 12%;
+    }
+
+    .iconEdits {
+        width:50px;
+        padding-top:20px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:15px;
+    }
+
+    .copyrightSize {
+        font-size:16px;
+    }
+}

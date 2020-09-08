@@ -1,0 +1,265 @@
+
+
+
+@media only screen and (max-width: 1920px) {
+    html{
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    
+    .pPadding {
+        padding-top:4%;
+    }
+
+    .portContainer {
+       margin-top:3%;
+    }
+    
+    h1 {
+        padding-bottom: 3%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    
+    .portContainer {
+        min-width: 75%;
+        margin-left:10%;
+    }
+    
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 1205px) {
+    
+    .portContainer {
+        min-width: 75%;
+        margin-left:10%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    
+    .skill-row {
+        margin-top: 15%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .letsMargin2 {
+        padding-top:60px;
+        padding-left:10%;  
+    }
+
+    .hidden {
+        visibility: visible;
+        position: relative;
+        width:320px;
+        height:320px;
+        
+    }
+    
+    .begone {
+        visibility: hidden;
+        position: absolute;
+        width:20px;
+        height:20px;
+        
+    }
+
+    .portContainer {
+        min-width: 90%;
+        margin-left:5%;
+    }
+
+    .container-fluid {
+        margin-top:5%;
+        padding-left:5px;
+        padding-right:5px;
+    }
+    
+}
+
+@media only screen and (max-width: 826px) {
+    
+    .someFloat1 {
+        float: none;
+        margin-right: 5%;  
+    }
+
+    .someFloat2 {
+        float: none;
+        margin-right: 5%;  
+    }
+    
+    .profileSize {
+        width:150px;
+        height:150px;
+    }
+    
+    h3 {
+        margin-top: 5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .profileImg {
+        width:100px;
+        height:100px;
+        border:2px solid #66BFBF; 
+        border-radius: 100%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+    .letsMargin2 {
+        
+        padding-left:9%;
+        
+    }
+  
+    .deviceGif {
+        width:320px;
+        height:320px;
+    }
+    
+    h3 {
+        margin-top: 5%;
+        font-size:26px;
+    }
+
+    .skill-row {
+        width:80%;
+    }
+
+    .profileSize {
+        width:100px;
+        height:100px;
+    }   
+
+
+    .iconEdits {
+        width:60px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .container-fluid {
+        margin-top:20%;
+        padding-left:5px;
+        padding-right:5px;
+    }
+
+}
+    
+
+@media only screen and (max-width: 400px) {
+    
+    .portContainer {
+        margin-left:0;
+        margin-right:0;
+        min-width:100%;
+    }
+    
+    h3 {
+        font-size: 24px;
+        
+    }
+}
+
+
+
+
+@media only screen and (max-width: 376px) {
+
+    h1 {
+        font-size: 50px;
+        padding-bottom: 5%;
+    }
+    
+    h3 {
+        font-size: 26px;
+        
+    }
+
+    .pPadding {
+        padding-top:20%;
+    }
+
+    
+    .someFloat1 {
+        float: none;
+        margin-right: 5%;
+        
+    }
+    
+    .someFloat2 {
+        float: none;
+        margin-left: 5%;
+    }
+
+    .skill-row {
+        margin-top: 20%;
+    }
+
+    .someExtraSkillP {
+        margin-bottom: 20%;
+    }
+    
+    .someExtraSkillH {
+        margin-bottom: 12%;
+    }
+
+    .iconEdits {
+        width:50px;
+        padding-top:20px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:15px;
+    }
+
+    .copyrightSize {
+        font-size:16px;
+    }
+
+
+    .portContainer {
+        margin-left:0;
+        margin-right:0;
+        min-width:100%;
+    }
+
+    .container-fluid {
+        margin-top:20%;
+        padding-left:5px;
+        padding-right:5px;
+    }
+
+    .letsMargin {
+        padding-top: 50px;
+    }
+
+
+
+
+}

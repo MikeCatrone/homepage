@@ -130,10 +130,7 @@
 
 @media only screen and (max-width: 480px) {
 
-    h3 {
-        font-size: 26px;
-        
-    }
+    
 
     .letsMargin2 {
         
@@ -184,6 +181,11 @@
         min-width:100%;
     }
     
+    h3 {
+        font-size: 26px;
+        
+    }
+    
 }
 
 
@@ -196,7 +198,10 @@
         padding-bottom: 5%;
     }
     
-    
+    h3 {
+        font-size: 26px;
+        
+    }
 
     .pPadding {
         padding-top:20%;

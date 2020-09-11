@@ -193,3 +193,22 @@ body {
         -webkit-box-shadow: 9px 8px 15px 4px #041724; 
         box-shadow: 9px 8px 15px 4px #041724;
         }
+
+
+    .fb:hover {
+        width:80px;
+    }   
+
+    .insta:hover {
+        width:80px;
+    }   
+
+    .gith:hover {
+        width:80px;
+    }   
+
+    .lin:hover {
+        width:80px;
+    }   
+
+    

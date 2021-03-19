@@ -13,6 +13,8 @@ $(".testButton").click(() => {
         $("h1").show();
         $("p").show();
         $("video").show();
+    } else {
+        null;
     }
     
 })

@@ -1,7 +1,8 @@
-let open = true;
+let open = false;
 
 
-        $(".portContainer").animate({ width: "400px", height: "200px" });
+        $(".portContainer").css("width", "400px");
+        $(".portContainer").css("height", "200px" );
         $("h1").text('My Coffee App');
         $("p").hide();
         $("video").hide();

@@ -212,4 +212,6 @@ body {
         width:80px;
     }   
 
-    
+.letsAnimate {
+    visibility: hidden;
+}

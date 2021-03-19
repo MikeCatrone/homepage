@@ -6,5 +6,6 @@ $(".testButton").click(() => {
     $("h1").remove();
     $("p").remove();
     $("video").remove();
+    $(".portContainer").addClass("letsAnimate");
     
 })

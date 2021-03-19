@@ -6,6 +6,6 @@ $(".testButton").click(() => {
     $("h1").remove();
     $("p").remove();
     $("video").remove();
-    $(".portContainer").css("margin-left", "20%");
+    $(".portContainer").addClass("letsAnimate")
     
 })

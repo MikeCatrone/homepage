@@ -11,7 +11,7 @@ $(".testButton").click(() => {
        
         open = !open;
     } else {
-        $(".portContainer").animate({ width: "200px", height: "180px" });
+        $(".portContainer").animate({ width: "75%", height: "180px" });
         $("h1").hide();
         $("p").hide();
         $("video").hide();

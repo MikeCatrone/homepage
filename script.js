@@ -6,6 +6,5 @@ $(".testButton").click(() => {
     $("h1").hide();
     $("p").hide();
     $("video").hide();
-    $(".portContainer").addClass("letsAnimate")
     
 })

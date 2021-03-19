@@ -4,7 +4,7 @@ let open = true;
 $(".testButton").click(() => {
     
     if(open === false) {
-        $(".portContainer").animate({ maxWidth: "60%", height: "62%" });
+        $(".portContainer").animate({ width: "60%", height: "62%" });
         $("h1").show();
         $("p").show();
         $("video").show();

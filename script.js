@@ -1,4 +1,3 @@
-
 let open = true;
 
 $(".testButton").click(() => {
@@ -11,8 +10,8 @@ $(".testButton").click(() => {
        
         open = !open;
     } else {
-        $(".portContainer").animate({ width: "75%", height: "180px" });
-        $("h1").hide();
+        $(".portContainer").animate({ width: "400px", height: "200px" });
+        $("h1").text('My Coffee App');
         $("p").hide();
         $("video").hide();
         open = !open;

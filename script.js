@@ -9,7 +9,7 @@ $(".testButton").click(() => {
     open = !open;
     
     if(open === true) {
-        $(".portContainer").animate({ maxWidth: "30%", height: "62%" });
+        $(".portContainer").animate({ maxWidth: "60%", height: "62%" });
         $("h1").show();
         $("p").show();
         $("video").show();

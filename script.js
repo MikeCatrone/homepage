@@ -1,4 +1,4 @@
 
 $(".testButton").click(() => {
-    $(".portContainer").animate({ width: "300px", height: "300px" });
+    $(".portContainer").animate({ width: "200px", height: "120px" });
 })

@@ -1,5 +1,12 @@
 let open = true;
 
+
+        $(".portContainer").animate({ width: "400px", height: "200px" });
+        $("h1").text('My Coffee App');
+        $("p").hide();
+        $("video").hide();
+
+
 $(".testButton").click(() => {
     
     if(open === false) {

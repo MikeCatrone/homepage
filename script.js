@@ -3,8 +3,8 @@
 
 $(".testButton").click(() => {
     $(".portContainer").animate({ width: "50%", height: "120px" });
-    $(".headingText").remove();
-    $("p").remove();
-    $("video").remove();
+    $("h1").addClass("letsAnimate");
+    $("p").addClass("letsAnimate");
+    $("video").addClass("letsAnimate");
     
 })

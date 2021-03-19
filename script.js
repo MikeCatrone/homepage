@@ -4,11 +4,14 @@ let open = true;
 $(".testButton").click(() => {
     
     if(open === false) {
-        $(".portContainer").animate({ width: "60%", height: "62%" });
+        $(".portContainer").animate({ width: "1200px", height: "100%" });
+        $("h1").show();
+        $("p").show();
+        $("video").show();
        
         open = !open;
     } else {
-        $(".portContainer").animate({ width: "30%", height: "120px" });
+        $(".portContainer").animate({ width: "200px", height: "180px" });
         $("h1").hide();
         $("p").hide();
         $("video").hide();

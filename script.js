@@ -2,7 +2,7 @@ let open = false;
 
 
         $(".portContainer").css("width", "400px");
-        $(".portContainer").css("height", "200px" );
+        $(".portContainer").css("height", "220px" );
         $("h1").text('React Native Coffee Data');
         $("p").hide();
         $("video").hide();

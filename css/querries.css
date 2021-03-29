@@ -192,8 +192,12 @@
     }
     
     h3 {
-        font-size: 24px;
-        
+        font-size: 24px;    
+    }
+    
+    .coffeeImage {
+        width: 60%;
+        height: 70%;
     }
 }
 

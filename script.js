@@ -5,7 +5,7 @@ let open = false;
         $(".portContainer").css("height", "220px" );
         $("h1").text('React Native Coffee Data');
         $("p").hide();
-        $("image").hide();
+        $("img").hide();
 
 
 $(".testButton").click(() => {
@@ -14,14 +14,14 @@ $(".testButton").click(() => {
         $(".portContainer").animate({ width: "1200px", height: "100%" });
         $("h1").show();
         $("p").show();
-        $("image").show();
+        $("img").show();
        
         open = !open;
     } else {
         $(".portContainer").animate({ width: "400px", height: "200px" });
         $("h1").text('My Coffee App');
         $("p").hide();
-        $("image").hide();
+        $("img").hide();
         open = !open;
     }
     

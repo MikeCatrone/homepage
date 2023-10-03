@@ -1,0 +1,490 @@
+
+
+body {
+    overflow-x: hidden;
+    background-color: #1450A3;
+    color: white;
+    font-family: "Lato";
+    width: 100%;
+    margin: 0;
+}
+
+
+
+nav {
+    height: 4.5em;
+    margin-bottom: 5em;
+    background-color: #0e376f;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.navButt h2 {
+    display: inline-block;
+    margin-left: 4em;
+    margin-right: 4em;
+    transition: 0.3s;
+}
+
+
+.navButt h2:hover {
+    color: #FFBB5C;
+}
+
+
+p {
+    font-size: 1.3em;
+}
+
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+
+
+/* ///////////////////////// Footer /////////////////////////////   */
+
+
+footer {
+    margin-top: 5.5em;
+    height:12em;
+    background-color: #0e376f;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;   
+}
+
+
+footer img {
+    width:3em;
+    margin-left: 2em;
+    margin-right: 2em;
+    transition: 0.2s;
+}
+
+
+footer img:hover {
+    width:4em;
+}
+
+
+.footerSetup {
+    padding-top: 1em;
+    margin: auto;
+    text-align: center; 
+}
+
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* //////////////////////////////////////////////////////// */
+
+
+
+.subHeading1 {
+    font-weight: 300;
+    font-size: 5em;
+    color: #FFBA86;
+    margin: 0;
+}
+
+
+.subHeading2 {
+    font-weight: 300;
+    font-size: 5em;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+
+.profile {
+    border-radius: 50%;
+    border: 0.3em solid white;
+    margin-bottom: 3em;
+    width: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.construction {
+    text-align: center;
+}
+
+
+.styleImg {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+/* //////////////////// PokeAppPic ////////////////////// */
+
+
+.pokePic {
+    width: 0;
+    height: 0;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.pokePic2 {
+    width: 16em;
+    border-radius: 8px;
+    margin: auto;
+    transition: 0.3s;
+    opacity: 1;
+    
+}
+
+
+.pokePic2:hover {
+    width: 17em;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+
+
+
+/* /////////////////// Portfolio Button /////////////////// */
+
+
+.portButton {
+    background-color: #FFBB5C;
+    margin-top: 2em;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 10px;
+    transition: 0.25s;
+   }
+
+
+   .portButton:hover {
+    background-color: #0e376f;
+   }
+
+   .portButton:active {
+    background-color: #0e376f;
+   }
+
+
+   .secondButt {
+    background-color: #5cb6ff;
+    margin-top: 1em;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 10px;
+    transition: 0.25s;
+   }
+
+   .imgFormat {
+    text-align: center;
+   }
+
+
+/* ///////////////////////////////////////  */
+
+
+
+.portWindow {
+    width: 50em;
+    height:0;
+    background-color: #0e376f;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    transition: 0.3s;
+       
+}
+
+.portWindow2 {
+
+    width: 50em;
+    height: 26em;
+    background-color: #0e376f;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    transition: 0.3s;
+    position: relative;
+}
+
+
+.projText {
+    font: "Lato";
+    text-align: center;
+}
+
+
+
+/* ////////////////// QUERIES //////////////////////////////////// */
+
+
+
+@media (min-width: 1000px) {
+    
+   .theSection {
+    position: relative;
+    background-color: #0d3163;
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    position: relative;
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+   }
+
+   .codeImg {
+    width: 0.5em;
+    opacity: 0;
+   }
+
+
+   .profile {
+    position: absolute;
+    right: 23%;
+    top: 2%;
+   }
+
+   .paragraphs {
+    width: 50em;
+    letter-spacing: 0.15em;
+    position: relative;
+   }
+
+
+   .snippet {
+    width: 2em;
+    position:absolute;
+    bottom: -3%;
+    left: 35%;
+    transition: 0.3s;
+   }
+
+   .snippet2 {
+    width: 2em;
+    position:absolute;
+    bottom: -195%;
+    left: 110%;
+    transition: 0.3s;
+    z-index: 2;
+   }
+
+   .snippet3 {
+    width: 0.1em;
+    transition: 0.3s;
+    opacity: 0;
+   }
+
+ }
+
+
+ @media (max-width: 1060px) {
+
+    .portWindow {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .portWindow2 {
+        margin: 0;
+        margin-top: 4em;
+        margin-bottom: 4em;  
+    }
+
+
+    .codeImg {
+        width: 0.5em;
+        opacity: 0;
+       }
+
+
+    .paragraphs {
+        width: 70%;
+        letter-spacing: 0.15em;
+        position: relative;
+       }
+
+
+    .snippet {
+        width: 2em;
+        position:absolute;
+        bottom: -3%;
+        left: 35%;
+        transition: 0.3s;
+       }
+    
+
+    .snippet2 {
+        width: 2em;
+        position:absolute;
+        bottom: -195%;
+        left: 90%;
+        transition: 0.3s;
+        z-index: 2;
+       }   
+
+  }
+
+
+
+  @media (max-width: 999px) {
+
+    .paragraphs {
+        width: 40em;
+    }
+
+    .portWindow2 {
+        width: 40em;
+    }
+
+    .snippet {
+        left: 43%;
+       }
+    
+
+    .snippet2 {
+        bottom: -182%;
+        left: 86%;
+       }   
+    .snippet3 {
+        opacity: 0;
+        width:2em;
+    }   
+
+    .theSection {
+        padding-left: 1em;
+    }
+        
+  }
+
+
+
+ @media (max-width: 600px) {
+    
+    .theSection {
+        padding: 0.6em;
+    }
+
+    nav {
+        height: 3.5em;
+    }
+
+    .navButt h2 {
+        font-size:1em;
+        margin:0;
+        padding-top: 1em;
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        transition: 0.2s;
+    }
+
+    
+     .profile {
+        width: 10em;
+    } 
+
+    .codeImg {
+        width: 98%;
+        opacity: 1;
+       }
+
+    .paragraphs {
+        width:98%;
+        letter-spacing: 0.1em;
+    }   
+
+    .snippet {
+        position: relative;
+        top: 0.6em;
+        left: 0.5em;
+    }
+
+    .snippet2 {
+
+        opacity:0;
+        bottom: 0;
+    }
+
+    .portWindow2 {
+        position: relative;
+        width: 98%;
+    }
+
+    .snippet3 {
+        position: absolute;
+        opacity: 1;
+        bottom: 5%;
+        right: 5%;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+    .portWindow {
+        margin-bottom: 0;
+    }
+    
+}
+
+
+
+  @media (max-width: 420px) {
+    
+
+     .subHeading1, .subHeading2 {
+        font-size: 2.5em;
+     }
+
+
+     .portWindow {
+        width: 98%;
+        height: 2em;
+    }
+
+    .portWindow2 {
+        width: 98%;
+        
+    }
+
+  }

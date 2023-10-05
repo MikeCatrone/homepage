@@ -18,19 +18,26 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: center;
+   
 }
 
-
-.navButt h2 {
-    display: inline-block;
-    margin-left: 4em;
-    margin-right: 4em;
-    transition: 0.3s;
-}
 
 
 .navButt h2:hover {
     color: #FFBB5C;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    
+}
+
+
+li {
+    font-size: 24px;
 }
 
 
@@ -42,6 +49,16 @@ p {
 a, a:visited, a:hover, a:active {
     color: inherit;
   }
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+}  
+
+a:hover {
+    color: #FFBB5C;
+    text-decoration: underline;
+}
 
 
 
@@ -267,7 +284,7 @@ hr.style-two {
     padding-top: 4em;
     padding-left: 4em;
     padding-right: 4em;
-    padding-bottom: 1em;   
+    padding-bottom: 1em;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
@@ -313,6 +330,11 @@ hr.style-two {
     width: 0.1em;
     transition: 0.3s;
     opacity: 0;
+   }
+
+   nav a {
+     margin-left: 5em;
+     margin-right: 5em;
    }
 
  }
@@ -410,17 +432,8 @@ hr.style-two {
         height: 3.5em;
     }
 
-    .navButt h2 {
-        font-size:1em;
-        margin:0;
-        padding-top: 1em;
-        padding-right: 1.5em;
-        padding-left: 1.5em;
-        transition: 0.2s;
-    }
-
     
-     .profile {
+    .profile {
         width: 10em;
     } 
 
@@ -465,6 +478,15 @@ hr.style-two {
     .portWindow {
         margin-bottom: 0;
     }
+
+    nav a {
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+    
+    .projText {
+        padding: 0.5em;
+    }  
     
 }
 

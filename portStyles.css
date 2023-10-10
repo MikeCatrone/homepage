@@ -1,5 +1,6 @@
 
 
+
 body {
     overflow-x: hidden;
     background-color: #1450A3;
@@ -137,14 +138,17 @@ hr.style-two {
 
 
 .styleImg {
-    text-align: center;
+    
     margin-top: 2em;
     margin-bottom: 2em;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 
 
-/* //////////////////// PokeAppPic ////////////////////// */
+/* //////////////////// AppPicSettings ////////////////////// */
 
 
 .pokePic {
@@ -159,6 +163,7 @@ hr.style-two {
     opacity: 0;
 }
 
+
 .pokePic2 {
     width: 16em;
     border-radius: 8px;
@@ -169,12 +174,66 @@ hr.style-two {
 }
 
 
+.shoppingPic {
+    width: 0;
+    height: 0;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+
+.shoppingPic2 {
+    width: 17em;
+    border-radius: 8px;
+    margin: auto;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+
 .pokePic2:hover {
     width: 17em;
     border: 3px solid white;
     border-radius: 8px;
 }
 
+
+.shoppingPic2:hover {
+    width: 17.5em;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+.jsLogo {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.reactLogo {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.jsLogo2 {
+ width: 2em;
+ opacity: 1;
+ transition: 0.3s;
+}
+
+.reactLogo2 {
+ width: 2em;
+ opacity: 1;
+ transition: 0.3s;
+}
 
 
 
@@ -257,6 +316,7 @@ hr.style-two {
     opacity: 1;
     transition: 0.3s;
     position: relative;
+    
 }
 
 
@@ -487,7 +547,18 @@ hr.style-two {
     .projText {
         padding: 0.5em;
     }  
-    
+
+
+    .pokePic2 {
+        width: 10em;
+    }
+
+    .shoppingPic2 {
+        width: 10.5em;
+    }
+
+
+
 }
 
 
@@ -509,5 +580,14 @@ hr.style-two {
         width: 98%;
         
     }
+
+    .pokePic2 {
+        width: 8em;
+    }
+
+    .shoppingPic2 {
+        width: 8.5em;
+    }
+
 
   }

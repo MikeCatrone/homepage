@@ -166,7 +166,7 @@ hr.style-two {
 
 
 .pokePic2 {
-    width: 16em;
+    width: 18em;
     border-radius: 8px;
     margin: auto;
     transition: 0.3s;
@@ -198,7 +198,7 @@ hr.style-two {
 
 
 .pokePic2:hover {
-    width: 17em;
+    width: 18.6em;
     border: 3px solid white;
     border-radius: 8px;
 }
@@ -553,7 +553,7 @@ hr.style-two {
 
 
     .pokePic2 {
-        width: 10em;
+        width: 11.2em;
     }
 
     .shoppingPic2 {

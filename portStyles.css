@@ -500,6 +500,10 @@ hr.style-two {
         height: 3.5em;
     }
 
+    .navButt li {
+        font-size: 1.1em;
+    }
+
     
     .profile {
         width: 10em;
@@ -582,7 +586,7 @@ hr.style-two {
 }
 
 
-  @media (max-width: 420px) {
+  @media (max-width: 460px) {
     
 
      .subHeading1, .subHeading2 {
